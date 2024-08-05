@@ -1,7 +1,13 @@
-.header{
+@use '@/styles' as *;
+
+.header {
     width: 100%;
     padding: 2vh 7vw;
-    nav {
-        
-    }
+
+    nav {}
+}
+
+.hamburger {
+    font-size: 18px;
+    color: $secondary;
 }

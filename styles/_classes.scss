@@ -1,0 +1,62 @@
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-tertiary {
+  background-color: $tertiary;
+}
+
+.border-primary {
+  border-color: $primary;
+}
+
+.border-secondary {
+  border-color: $secondary;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: #000;
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  color: #fff !important;
+}
+
+.btn-tertiary {
+  background-color: $tertiary;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-tertiary {
+  color: $tertiary;
+}
