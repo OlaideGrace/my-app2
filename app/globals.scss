@@ -1,6 +1,38 @@
 @use '../styles' as *;
 @import '~bootstrap/scss/bootstrap';
 
+
+$primary: #FF9900;
+$secondary: #52B6EC;
+$tertiary: #7D7D7D;
+
+
+.bg-primary{
+  background-color: $primary;
+}
+
+.bg-seconary{
+  background-color: $secondary;
+}
+
+.bg-tertiary{
+  background-color: $tertiary;
+}
+
+.text-primary{
+  color: $primary;
+}
+
+.text-seconary{
+  color: $secondary;
+}
+
+.text-tertiary{
+  color: $tertiary;
+}
+
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -94,4 +126,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.gap-10 {
+  gap: 10px;
 }
