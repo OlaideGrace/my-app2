@@ -1,16 +1,16 @@
 import Image from "next/image";
-import styles from './styles.module.scss'
+import styles from './styles.module.scss';
 import Link from "next/link";
 import routes from "@/routes";
 import logo from "@/components/img/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars,faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
 
 export default function Header() {
     const [open, setOpen] = useState(false);
 
-    cconst toggle = () => {
+    const toggle = () => {
         setOpen(!open);
     }
     return <>
@@ -23,7 +23,7 @@ export default function Header() {
                 </div>
                 <div className="">
                 <div className="d-md-none text-end">
-                            <fontAwesomeIcon className={`${styles.hamburger}`} onClick={toggle}
+                            <FontAwesomeIcon className={`${styles.hamburger}`} onClick={toggle}
                              icon={open ? faTimes : faBars} />
                         </div>
                     <ul className={`${open ? '' : 'd-none'}text-end d-md-flex align-items-center list-unstyled gap-20`}>
