@@ -14,7 +14,7 @@ export default function Header() {
         setOpen(!open);
     }
     return <>
-        <header className={`w-100 ${styles.header} position-fixed`}>
+        <header className={`w-100 ${styles.header} position-fixed d-none`}>
             <nav className={`w-100 d-flex justify-content-between`}>
                 <div>
                     <Link href="/">

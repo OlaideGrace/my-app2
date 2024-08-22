@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './styles.module.scss'
 import routes from '@/routes'
 import Image from 'next/image'
-import logo from '@/components/img/logo.png'
+import logo from '@/components/img/logo-white.png'
 import facebook from '@/components/img/facebook (1).svg'
 import instagram from '@/components/img/instagram (1).svg'
 import twitter from '@/components/img/twitter (2).svg'
@@ -10,13 +10,13 @@ import twitter from '@/components/img/twitter (2).svg'
 
 export default function Footer() {
     return <>
-        <footer className={`bg-secondary w-100 d-flex ${styles.myLinks} `}>
-            <div>
+        <footer className={`bg-secondary w-100 d-flex flex-wrap ${styles.footer} `}>
+            <div className='col-6 col-md-auto order-1 order-md-0'>
                 <Link href={routes.home}>
-                <Image src={logo} alt="logo" width={120} height={45} />
+                <Image src={logo} alt="logo" width={120} height={75} />
                 </Link>
             </div>
-            <div> 
+            <div className='col-6 col-md-auto'> 
                 <ul className={`d-flex-column list-unstyled`}>
                     <li> <Link href={routes.home}>Abouts Us</Link></li>
                     <li> <Link href={routes.home}>Responsibilties</Link></li>
@@ -25,16 +25,17 @@ export default function Footer() {
                 </ul>
          </div>
             
-         <div> 
-                <ul className={`d-flex-column list-unstyled`}>
+         <div className='col-6 col-md-auto d-flex justify-content-end'> 
+                <ul className={`d-flex flex-column list-unstyled`}>
                     <li> <Link href={routes.home}>Disclaimer</Link></li>
                     <li> <Link href={routes.home}>Testimonials</Link></li>
                     <li> <Link href={routes.home}>Private Policy</Link></li>
                     <li> <Link href={routes.home}>Terms of Service</Link></li>
                 </ul>
          </div>
-            <div className={`d-flex`}>
-                <ul className='d-flex list-unstyled'>
+            <div className={`col-6 col-md-auto d-flex justify-content-end order-1 order-md-0 
+                align-self-end `}>
+                <ul className='d-flex gap-2 list-unstyled'>
                     <li> <Link href={routes.home}><Image src={facebook} 
                     alt="facebook" width={20} height={20} /></Link></li> 
                     <li> <Link href={routes.home}><Image src={instagram} 
