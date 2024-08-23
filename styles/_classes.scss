@@ -54,9 +54,16 @@
   padding-bottom: 2vh;
 }
 
-.p-7vw{
-  padding-left: 7vw;
+.ps-7vw {
+padding-left: 7vw;
+}
+
+.pe-7vw {
   padding-right: 7vw;
+}
+
+.p-7vw {
+  @extend .ps-7vw, .pe-7vw;
 }
 
 .p-2vh {

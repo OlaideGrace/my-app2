@@ -13,8 +13,8 @@ export default function Home() {
   return <>
     <Header />
     <main className={styles.main}>
-      <section className="w-100 d-flex flex-column flex-lg-row gap-3 ">
-        <div className="p-7vw">
+      <section className="w-100 d-flex flex-column flex-md-row align-items-md-center gap-3 gap-md-0 ">
+        <div className="p-7vw col-md-7">
           <h1>Earn over <span className="text-secondary">$500</span>Monthly</h1>
           <h2>
          <div className="text-secondary"> LEARN AND EARN </div>
