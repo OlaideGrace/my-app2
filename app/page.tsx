@@ -12,8 +12,8 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className={styles.main}>
-      <section className="w-100 d-flex flex-column flex-md-row align-items-md-center gap-3 gap-md-0 ">
+    <main className={`${styles.main} mt-5`}>
+      <section className="w-100 d-flex flex-column flex-md-row align-items-md-center gap-3 gap-md-0 my-3 my-md-5 ">
         <div className="p-7vw col-md-7">
           <h1>Earn over <span className="text-secondary">$500</span>Monthly</h1>
           <h2>
