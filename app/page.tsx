@@ -5,16 +5,16 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import routes from "@/routes";
 import hero from "@/components/img/homepage-section11.png";
-import packages from "@/data/package";
-// import 'swiper/scss';
-// import 'swiper/scss/pagination';
+import packages from "@/data/packages";
+import 'swiper/scss';
+import 'swiper/scss/pagination';
 import { Autoplay, Pagination } from "swiper/modules"
 import styles from "@/app/page.module.scss";
 import Footer from "@/components/Footer/index";
 import Header from "@/components/Header/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-// import { SwiperContainer } from "@/components/SwiperContainer";
+import SwiperContainer from "@/components/SwiperContainer";
 
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
       <section className="p-7vw d-md-flex flex-column justify-content-center align-items-center">
         <h2 className="text-center">AMBASSADOR PACKAGES</h2>
         <p className="text-md-center col-md-9 col-lg-7">Our approach to teaching is unique and our teachers are extremely highly rated. We are affordable, simple, effective and very intensive </p>
-        <div >
+        <div>
           <Swiper 
           autoHeight={true}
           slidesPerView={1}
@@ -71,7 +71,7 @@ export default function Home() {
         className={styles.mySwiper}>
           {
             packages.map((item, index) => <SwiperSlide key={index}>
-              <div className="card px-2 py-">
+              <div className="card px-2 py-3">
                 <div className="card-body">
                   <Image className="mb-3" src={item.thumbsnail} alt="img" width={50} height={50} />
                   <h5 className="card-title">{item.title}</h5>
@@ -85,11 +85,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </swiperSlide>)
-          }
-          </swiper>
-
-          {/* <SwiperContainer/> */}
+              </SwiperSlide>)
+}
+              <SwiperContainer/>
+            
+            </Swiper>
+        
         </div>
       </section>
       </main>

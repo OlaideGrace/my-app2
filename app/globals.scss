@@ -128,10 +128,25 @@ a {
   text-decoration: none;
 }
 
-.gap-10 {
-  gap: 10px;
-}
-
 ul {
   margin: 0;
+}
+[data-theme="light"] .modal-content {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+[data-theme="dark"] .modal-content {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
