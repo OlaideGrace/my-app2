@@ -26,6 +26,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
+    order: 0,
   },
   {
     title: "Access Pro",
@@ -44,6 +45,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
+    order: 1,
   },
   {
     title: "Diamond Plus",
@@ -62,6 +64,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
+    order: 0,
   },
   {
     title: "Premimum",
@@ -80,6 +83,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
+    order: 1,
   },
 ];
 

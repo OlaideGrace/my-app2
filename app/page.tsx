@@ -9,6 +9,7 @@ import Header from "@/components/Header/index";
 import 'swiper/scss';
 import 'swiper/scss/pagination';
 import SwiperContainer from "@/components/SwiperContainer";
+import AmbassadorContainer from "@/components/AmbassadorContainer";
 
 
 export default function Home() {
@@ -33,6 +34,9 @@ export default function Home() {
         <p className="text-md-center col-md-9 col-lg-7">Our approach to teaching is unique and our teachers are extremely highly rated. We are affordable, simple, effective and very intensive </p>
         <div className="w-100">
           <SwiperContainer/>
+        </div>
+        <div>
+          <AmbassadorContainer/>
         </div>
       </section>
     </main>
