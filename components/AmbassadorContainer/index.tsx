@@ -1,6 +1,7 @@
 import packages from "@/data/packages";
 import Image from "next/image";
 import styles from "./ambassadorComp.module.scss";
+import Link from "next/link";
 
 export default  function AmbassadorContainer() {
     return (
@@ -15,7 +16,15 @@ export default  function AmbassadorContainer() {
                                 <div>
                                     <p>Easier desion making for</p>
                                     <h1>{data.title} AMBASSADOR</h1>
-                                    <Image src={"/checkList.svg"} alt={"ÿes"} width={20} height={20}/>
+                                    <div>
+                                        {data.descriptions.map(
+                                            (dataDescription)=><div className="d-flex" key={dataDescription}>
+                                                <Image src={"/checkList.svg"} alt={"checklist"} width={20} height={20}/>
+                                                <p>{dataDescription}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                    <Link href={"/"}>subscribe</Link>
                                 </div>
                             </div>
                         </div>
