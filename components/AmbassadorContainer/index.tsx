@@ -24,7 +24,9 @@ export default  function AmbassadorContainer() {
                                             </div>
                                         )}
                                     </div>
-                                    <Link href={"/"}>subscribe</Link>
+                                    <Link href={data.link} className="text-decoration-none">
+                                    <span className="text-primary" >Subscribe</span>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

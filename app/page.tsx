@@ -37,6 +37,9 @@ export default function Home() {
         <div className="w-100">
           <SwiperContainer/>
         </div>
+        </section>
+        <section className="mb-5 w-100 p-7vw d-md-flex flex-column justify-content-center align-items-center" >
+        <h1 className="text-center">SUBSCRPTION PLAN AND BENEFITS</h1>
         <div>
           <AmbassadorContainer/>
         </div>
