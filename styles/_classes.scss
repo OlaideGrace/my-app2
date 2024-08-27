@@ -49,13 +49,41 @@
   gap: 20px;
 }
 
+
+.m-2vh {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.ms-7vw {
+  margin-left: 7vw;
+}
+
+.me-7vw {
+  margin-right: 7vw;
+}
+
+.m-7vw {
+  @extend .ms-7vw, .me-7vw;
+}
+
+.m-2vh {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.m-7vw {
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
 .p-2vh {
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
 
 .ps-7vw {
-padding-left: 7vw;
+  padding-left: 7vw;
 }
 
 .pe-7vw {
@@ -71,7 +99,7 @@ padding-left: 7vw;
   padding-bottom: 2vh;
 }
 
-.p7vw{
+.p-7vw {
   padding-left: 7vw;
   padding-right: 7vw;
 }

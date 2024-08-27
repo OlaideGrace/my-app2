@@ -13,7 +13,11 @@ const routes = {
     terms: "/support/about/terms",
     welcome: "/support/about/welcome",
     page: "/support/about/page",
-  },
+    agreement:{
+      terms: "/auth/signup/agreement/terms",
+      conditions: "/auth/signup/agreement/conditions"
+    },
+  }
 };
 
 export default routes;
