@@ -19,15 +19,9 @@
     "react": "^18",
     "react-bootstrap": "^2.10.3",
     "react-dom": "^18",
-<<<<<<< HEAD
-    "react-hook-form": "^7.53.0",
-    "sass": "^1.77.5",
-    "swiper": "^11.1.10",
-=======
     "react-hook-form": "^7.52.2",
     "sass": "^1.77.5",
     "swiper": "^11.1.9",
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
     "yup": "^1.4.0"
   },
   "devDependencies": {

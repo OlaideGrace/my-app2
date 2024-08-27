@@ -2,23 +2,15 @@
 import Image from "next/image";
 import routes from "@/routes";
 import { useEffect } from "react";
-<<<<<<< HEAD
 import mdHero from "@/components/img/homepage-section1.png";
 import xsHero from "@/components/img/homepage-section11.png";
-=======
-import mdHero from "@/img/homepage-section1.png";
-import xsHero from "@/img/homepage-section11.png";
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
 import styles from "@/app/page.module.scss";
 import Footer from "@/components/Footer/index";
 import Header from "@/components/Header/index";
 import 'swiper/scss';
 import 'swiper/scss/pagination';
 import SwiperContainer from "@/components/SwiperContainer";
-<<<<<<< HEAD
 import AmbassadorContainer from "@/components/AmbassadorContainer";
-=======
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
 
 
 export default function Home() {
@@ -45,15 +37,12 @@ export default function Home() {
         <div className="w-100">
           <SwiperContainer/>
         </div>
-<<<<<<< HEAD
         </section>
         <section className="mb-5 w-100 p-7vw d-md-flex flex-column justify-content-center align-items-center" >
         <h1 className="text-center">SUBSCRPTION PLAN AND BENEFITS</h1>
         <div>
           <AmbassadorContainer/>
         </div>
-=======
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
       </section>
     </main>
     <Footer />
