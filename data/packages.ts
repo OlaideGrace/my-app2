@@ -1,5 +1,4 @@
 import routes from "@/routes";
-<<<<<<< HEAD
 import access from "@/components/img/packages/access.svg";
 import diamond from "@/components/img/packages/diamond.svg";
 import enterprise from "@/components/img/packages/enterprise.svg";
@@ -8,16 +7,6 @@ import accessImg from "@/components/img/packages/access.png";
 import diamondImg from "@/components/img/packages/diamond.png";
 import enterpriseImg from "@/components/img/packages/enterprise.png";
 import premiumImg from "@/components/img/packages/premium.png";
-=======
-import access from "@/img/packages/access.svg";
-import diamond from "@/img/packages/diamond.svg";
-import enterprise from "@/img/packages/enterprise.svg";
-import premium from "@/img/packages/premium.svg";
-import accessImg from "@/img/packages/access.png";
-import diamondImg from "@/img/packages/diamond.png";
-import enterpriseImg from "@/img/packages/enterprise.png";
-import premiumImg from "@/img/packages/premium.png";
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
 
 const packages = [
   {
@@ -37,10 +26,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
-<<<<<<< HEAD
     order: 0,
-=======
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
   },
   {
     title: "Access Pro",
@@ -59,10 +45,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
-<<<<<<< HEAD
     order: 1,
-=======
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
   },
   {
     title: "Diamond Plus",
@@ -81,10 +64,7 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
-<<<<<<< HEAD
     order: 0,
-=======
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
   },
   {
     title: "Premimum",
@@ -103,15 +83,8 @@ const packages = [
       "Earn 10 dollars on every student you bring to language academy",
       "Earn 5 dollars each from all students your down line register every month",
     ],
-<<<<<<< HEAD
     order: 1,
   },
 ];
 
 export default packages;
-=======
-  },
-];
-
-export default packages;
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f

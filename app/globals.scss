@@ -2,38 +2,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-
-$primary: #FF9900;
-$secondary: #52B6EC;
-$tertiary: #7D7D7D;
-
-
-.bg-primary{
-  background-color: $primary;
-}
-
-.bg-seconary{
-  background-color: $secondary;
-}
-
-.bg-tertiary{
-  background-color: $tertiary;
-}
-
-.text-primary{
-  color: $primary;
-}
-
-.text-seconary{
-  color: $secondary;
-}
-
-.text-tertiary{
-  color: $tertiary;
-}
-
-
-
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -117,10 +85,10 @@ input[type="number"]::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
-input[type="number"] {
-  -moz-appearance: textfield;
-}
+// /* Firefox */
+// input[type="number"] {
+//   -moz-appearance: textfield;
+// }
 
 html {
   @media (prefers-color-scheme: dark) {
@@ -171,8 +139,6 @@ ul {
     )
     rgb(var(--background-start-rgb));
 }
-<<<<<<< HEAD
-=======
 input {
   color: black;
 }
@@ -187,4 +153,3 @@ input {
   border-right: none;
   font-size: 20px;
 }
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f

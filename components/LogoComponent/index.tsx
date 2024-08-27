@@ -1,12 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
-<<<<<<< HEAD
 import logo from "@/components/img/logo.png";
 import logoWhite from "@/components/img/logo-white.png";
-=======
-import logo from "@/img/logo.png";
-import logoWhite from "@/img/logo-white.png";
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
 import Image from "next/image";
 
 const LogoComponent = ({ className }: { className?: string }) => {
@@ -33,8 +28,4 @@ const LogoComponent = ({ className }: { className?: string }) => {
     return <Image src={logoUrl} alt="logo" width={120} height={45} className={className} />;
 };
 
-<<<<<<< HEAD
 export default LogoComponent;
-=======
-export default LogoComponent;
->>>>>>> e605e18f4ea02b762c26f08010104fe2720cad7f
