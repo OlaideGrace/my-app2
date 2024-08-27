@@ -1,0 +1,28 @@
+.link {
+  color: rgb(7, 172, 249);
+}
+.link:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.btn {
+  min-height: 50px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+}
+.btnFacebook {
+  background-color: #527bcb;
+}
+.btnFacebook:hover {
+  background-color: #7997d1;
+}
+.input {
+  height: 50px;
+  font-size: 20px;
+  border-left: none;
+}

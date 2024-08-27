@@ -1,0 +1,34 @@
+.dontHaveAcctlink {
+  color: rgb(7, 172, 249);
+}
+.dontHaveAcctlink:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.btn {
+  min-height: 60px;
+  align-items: center;
+  display: flex;
+  width: 99%;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+}
+.input {
+  height: 50px;
+  font-size: 20px;
+}
+.bgWhite {
+  background-color: white;
+}
+.br50 {
+  border: 0px solid black;
+  border-radius: 50%;
+}
+.bgImage {
+  background: linear-gradient(rgba(82, 182, 236, 0.6), rgba(82, 182, 236, 0.6)),url("/img/homepage-section31.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
