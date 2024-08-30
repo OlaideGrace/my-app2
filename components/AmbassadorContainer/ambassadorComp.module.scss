@@ -1,24 +1,8 @@
-.container {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-border: 1px solid #ddd;
-border-radius: 10px;
+.ambassador-container {
+    row {
+       margin-bottom: 20px; 
+    }
 }
 
-.row {
-margin-bottom: 20px;
-}
 
-.image {
-border-radius: 10px;
-}
-
-.text-primary {
-color: #007bff;
-}
-
-.text-decoration-none {
-text-decoration: none;
-}
 

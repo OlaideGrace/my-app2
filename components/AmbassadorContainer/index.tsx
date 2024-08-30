@@ -9,7 +9,7 @@ export default  function AmbassadorContainer() {
             <div>
                 {
                     packages.map((data)=><div className="row d-flex" key={data.title}>
-                            <div className={`col-xs-12 col-md-6 d-flex justify-content-center p-3 order-${data.order}`}>
+                            <div className={`col-xs-12 col-md-6 d-flex justify-content-center p-3 order-0 order-md-${data.order}`}>
                                 <Image src={data.img} alt={`${data.title} image`} className={`w-100`}/>
                             </div>
                             <div className="col-xs-12 col-md-6">
@@ -24,8 +24,8 @@ export default  function AmbassadorContainer() {
                                             </div>
                                         )}
                                     </div>
-                                    <Link href={data.link} className="text-decoration-none">
-                                    <span className="text-primary" >Subscribe</span>
+                                    <Link href={data.link} className="text-decoration-none btn bg-primary">
+                                        Subscribe
                                     </Link>
                                 </div>
                             </div>
