@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
-import reset from "@/img/password/reset.svg";
-import resetWhite from "@/img/password/resetWhite.svg";
+import reset from "@/components/img/password/reset.svg";
+import resetWhite from "@/components/img/password/resetWhite.svg";
 import Image from "next/image";
 
 const ResetIcon = ({ className }:{className: string}) => {

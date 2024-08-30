@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from '../password.module.scss';
-import verifyIcon from "@/img/password/verification.svg";
+import verifyIcon from "@/components/img/password/verification.svg";
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';

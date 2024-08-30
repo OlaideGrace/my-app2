@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
-import change from "@/img/password/change.svg";
-import changeWhite from "@/img/password/changeWhite.svg";
+import change from "@/components/img/password/change.svg";
+import changeWhite from "@/components/img/password/changeWhite.svg";
 import Image from "next/image";
 
 const ChangeIcon = ({ className }:{ className?: string }) => {
