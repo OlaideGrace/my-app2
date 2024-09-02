@@ -1,8 +1,11 @@
-.ambassador-container {
-    row {
-       margin-bottom: 20px; 
-    }
+
+.ambassadorContainer {
+    flex-direction: column;
+    align-items: center;
 }
 
 
-
+.image {
+    max-width: 488px;
+    height: 507px;
+}
