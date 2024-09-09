@@ -1,11 +1,11 @@
 "use client";
-import styles from './SignUp.module.scss';
+import styles from './signUp.module.scss';
 import routes from "@/routes";
 import Link from "next/link";
 import SignupForm from "@/app/auth/components/SignUpForm";
 import LogoComponent from "@/components/LogoComponent";
 
-export default function SignUp(){
+export default function signUp(){
     return(
     <>
     <div className="row">
