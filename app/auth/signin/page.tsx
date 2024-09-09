@@ -1,4 +1,4 @@
-import styles from './signIn.module.scss';
+import styles from './SignIn.module.scss';
 import routes from "@/routes";
 import Image from "next/image";
 import Link from "next/link";

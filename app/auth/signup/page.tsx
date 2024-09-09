@@ -1,5 +1,5 @@
 "use client";
-import styles from './signup.module.scss';
+import styles from './SignUp.module.scss';
 import routes from "@/routes";
 import Link from "next/link";
 import SignupForm from "@/app/auth/components/SignUpForm";
