@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import routes from "@/routes";
+import Link from "next/link";
 import { useEffect } from "react";
 import mdHero from "@/components/img/homepage-section1.png";
 import xsHero from "@/components/img/homepage-section11.png";
@@ -11,6 +12,10 @@ import 'swiper/scss';
 import 'swiper/scss/pagination';
 import SwiperContainer from "@/components/SwiperContainer";
 import AmbassadorContainer from "@/components/AmbassadorContainer";
+import Testimonials from "@/components/Testimonials";
+import Testify from "@/components/Testify";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home() {
@@ -43,6 +48,24 @@ export default function Home() {
         <div>
           <AmbassadorContainer/>
         </div>
+      </section>
+      <section>
+      <div className={`${styles.testimonials} w-100 p-4 p-sm-5`}>
+        <Testimonials />
+      </div> 
+      <div className={`${styles.testimonials} w-100 p-4 p-sm-5 text-center`}>
+        <Testify />
+      </div>
+      <div className="d-md-flex w-100 p-4 py-5 p-sm-5 text-center justify-content-around align-content-center">
+        <div>
+          <p className="h3"><b>Ready to start a journey with us?</b></p>
+        </div>
+        <div>
+          <Link href={routes.auth.signup} className="btn bg-secondary p-2 shadow">
+            Apply Online <FontAwesomeIcon className="ms-2" icon={faArrowRight} />
+          </Link>
+        </div>
+      </div>
       </section>
     </main>
     <Footer />
