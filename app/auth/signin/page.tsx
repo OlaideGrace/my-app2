@@ -1,11 +1,11 @@
-import styles from './signIn.module.scss';
+import styles from './signin.module.scss';
 import routes from "@/routes";
 import Image from "next/image";
 import Link from "next/link";
 import LogoComponent from "@/components/LogoComponent";
 import mediaLink from "@/data/mediaLinks";
 import PasswordModal from '../components/password';
-export default function signIn(){
+export default function signin(){
     return(
     <>
         <div className="row">

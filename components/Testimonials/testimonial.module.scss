@@ -1,1 +1,8 @@
+.topAvatar {
+    gap: 20px;
+    @media (min-width: 992px) {
+      gap: 50px;
+    }
+  }
+  
  
