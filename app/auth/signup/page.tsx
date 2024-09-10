@@ -2,10 +2,10 @@
 import styles from './signup.module.scss';
 import routes from "@/routes";
 import Link from "next/link";
-import SignupForm from "@/app/auth/components/SignUpForm";
+import SignupForm from "@/app/auth/components/SignupForm";
 import LogoComponent from "@/components/LogoComponent";
 
-export default function signup(){
+export default function SignUp(){
     return(
     <>
     <div className="row">
