@@ -2,7 +2,7 @@
 import styles from './signup.module.scss';
 import routes from "@/routes";
 import Link from "next/link";
-import SignupForm from "@/app/auth/components/Signupform";
+import SignupForm from "@/app/auth/components/SignUpForm";
 import LogoComponent from "@/components/LogoComponent";
 
 export default function SignUp(){

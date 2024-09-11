@@ -2,6 +2,7 @@
 import ChangeIcon from "@/app/auth/components/ChangeIcon";
 import Image from "next/image";
 import styles from '../password.module.scss';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
