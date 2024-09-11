@@ -1,8 +1,8 @@
 "use client";
 import styles from './password.module.scss';
-import ResetModal from './Reset';
-import ChangeModal from './Change';
-import VerifyModal from './Verification';
+import ResetModal from './reset';
+import ChangeModal from './change';
+import VerifyModal from './verification';
 import  { useModal } from "@/components/Modal";
 
 export default function PasswordModal() {

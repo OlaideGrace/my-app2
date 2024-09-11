@@ -5,7 +5,7 @@ import Link from "next/link";
 import SignupForm from "@/app/auth/components/SignupForm";
 import LogoComponent from "@/components/LogoComponent";
 
-export default function signUp(){
+export default function SignUp(){
     return(
     <>
     <div className="row">
