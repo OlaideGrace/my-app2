@@ -1,3 +1,17 @@
-
+.topAvatar {
+    margin-bottom: 2rem;
+  }
   
+  .bottomAvatar {
+    margin-top: 2rem;
+  }
+  
+
+  @media (min-width: 1200px) {
+    .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
+      position: relative;
+    }
+  }
+   
+
  

@@ -10,14 +10,14 @@ import avatarFive from "@/components/img/avatar/img15.png";
 
 export default function Testimonials() {
     const topAvatars = [
-        {src: avatarOne, alt: "first avatar", title: "I can take care of your pitch", width: 70, height: 70, largeSrc: avatarOne, largeWidth: 300, largeHeight: 110, largeClass: styles.lgone},
-        {src: avatarTwo, alt: "second avatar", title: "I can help marketing strategy", width: 70, height: 70, largeSrc: avatarTwo, largeWidth: 300, largeHeight: 110, largeClass: styles.lgtwo},
+        {src: avatarOne, alt: "first avatar", title: "I can take care of your pitch", width: 70, height: 70, largeSrc: avatarOne, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarOne},
+        {src: avatarTwo, alt: "second avatar", title: "I can help marketing strategy", width: 70, height: 70, largeSrc: avatarTwo, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarTwo},
     ];
     
     const bottomAvatars = [
-        {src: avatarThree, alt: "third avatar", title: "I can design you website", width: 70, height: 70, largeSrc: avatarThree, largeWidth: 300, largeHeight: 110, largeClass: styles.lgthree},
-        {src: avatarFour, alt: "fourth avatar", title: "I will define the profile of your users", width: 70, height: 70, largeSrc: avatarFour, largeWidth: 300, largeHeight: 110, largeClass: styles.lgfour},
-        {src: avatarFive, alt: "fifth avatar", title: "I can prototype your app", width: 70, height: 70, largeSrc: avatarFive, largeWidth: 300, largeHeight: 110, largeClass: styles.lgfive},
+        {src: avatarThree, alt: "third avatar", title: "I can design you website", width: 70, height: 70, largeSrc: avatarThree, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarThree},
+        {src: avatarFour, alt: "fourth avatar", title: "I will define the profile of your users", width: 70, height: 70, largeSrc: avatarFour, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarFour},
+        {src: avatarFive, alt: "fifth avatar", title: "I can prototype your app", width: 70, height: 70, largeSrc: avatarFive, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarFive},
     ];
     
     return (
