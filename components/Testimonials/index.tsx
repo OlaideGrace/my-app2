@@ -7,17 +7,24 @@ import avatarTwo from "@/components/img/avatar/img12.png";
 import avatarThree from "@/components/img/avatar/img13.png";
 import avatarFour from "@/components/img/avatar/img14.png";
 import avatarFive from "@/components/img/avatar/img15.png";
+import { useEffect, useState } from "react";
 
 export default function Testimonials() {
+    const [display, setDisplay] = useState(true);
+    useEffect(() => {
+        const interval = setInterval(() => setDisplay(!display), 5000);
+        return () => clearInterval(interval);
+    }, [display]);
     const topAvatars = [
-        {src: avatarOne, alt: "first avatar", title: "I can take care of your pitch", width: 70, height: 70, largeSrc: avatarOne, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarOne},
-        {src: avatarTwo, alt: "second avatar", title: "I can help marketing strategy", width: 70, height: 70, largeSrc: avatarTwo, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarTwo},
+        {src: avatarOne, alt: "first avatar", title: "I can take care of your pitch", className:`${styles.avatarOne} ${display === true?"":"d-none"} d-md-block`},
+        {src: avatarTwo, alt: "second avatar", title: "I can help marketing strategy", className:`${styles.avatarTwo} ${display === true?"d-none":""} d-md-block`},
     ];
     
     const bottomAvatars = [
-        {src: avatarThree, alt: "third avatar", title: "I can design you website", width: 70, height: 70, largeSrc: avatarThree, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarThree},
-        {src: avatarFour, alt: "fourth avatar", title: "I will define the profile of your users", width: 70, height: 70, largeSrc: avatarFour, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarFour},
-        {src: avatarFive, alt: "fifth avatar", title: "I can prototype your app", width: 70, height: 70, largeSrc: avatarFive, largeWidth: 300, largeHeight: 110, largeClass: styles.avatarFive},
+        {src: avatarThree, alt: "third avatar", title: "I can design you website", className:`${styles.avatarThree} ${display === true?"":"d-none"}`},
+        {src: avatarFour, alt: "fourth avatar", title: "I will define the profile of your users", className: `${styles.avatarFour} d-none d-sm-block`},
+        {src: avatarFive, alt: "fifth avatar", title: "I can prototype your app", className:`${styles.avatarFive} ${display === true?"d-none":""}`},
+    
     ];
     
     return (
@@ -26,8 +33,7 @@ export default function Testimonials() {
                 <div className={`${styles.topAvatar} d-flex justify-content-between px-lg-5`}>
                     {topAvatars.map(avatar => (
                         <div key={avatar.alt}>
-                            <Image src={avatar.src} alt={avatar.alt} title={avatar.title} className="d-block d-lg-none" width={avatar.width} height={avatar.height}/>
-                            <Image src={avatar.largeSrc} alt={avatar.alt} title={avatar.title} className={`${avatar.largeClass} d-none d-lg-block`} width={avatar.largeWidth} height={avatar.largeHeight}/>
+                            <Image src={avatar.src} alt={avatar.alt} title={avatar.title} className={`${avatar.className} img-fluid d-lg-block`} />
                         </div>
                     ))}
                 </div>
@@ -41,8 +47,7 @@ export default function Testimonials() {
                 <div className={`${styles.bottomAvatar} d-flex justify-content-between`}>
                     {bottomAvatars.map(avatar => (
                         <div key={avatar.title}>
-                            <Image src={avatar.src} alt={avatar.alt} title={avatar.title} className="d-block d-lg-none" width={avatar.width} height={avatar.height}/>
-                            <Image src={avatar.largeSrc} alt={avatar.alt} title={avatar.title} className={`${avatar.largeClass} d-none d-lg-block`} width={avatar.largeWidth} height={avatar.largeHeight}/>
+                            <Image src={avatar.src} alt={avatar.alt} title={avatar.title} className={`${avatar.className} img-fluid d-lg-block`}/>
                         </div>
                     ))}
                 </div>

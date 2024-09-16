@@ -53,7 +53,7 @@ export default function Home() {
       <div className={`${styles.testimonials} w-100 p-4 p-sm-5`}>
         <Testimonials />
       </div> 
-      <div className={`${styles.testimonials} w-100 p-4 p-sm-5 text-center`}>
+      <div className={`${styles.testify} w-100 p-4 p-sm-5 text-center`}>
         <Testify />
       </div>
       <div className="d-md-flex w-100 p-4 py-5 p-sm-5 text-center justify-content-around align-content-center">

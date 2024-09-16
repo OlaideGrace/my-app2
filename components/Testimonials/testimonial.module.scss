@@ -1,17 +1,81 @@
-.topAvatar {
-    margin-bottom: 2rem;
-  }
-  
-  .bottomAvatar {
-    margin-top: 2rem;
-  }
-  
-
-  @media (min-width: 1200px) {
-    .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
+@media(min-width: 992px){
+  .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
       position: relative;
-    }
   }
+  .avatarOne{
+      top: 20%;
+  }
+  .avatarTwo{
+      left: 10%;
+  }
+  .avatarThree{
+      bottom: 10%;
+  }
+  .avatarFour{
+      left: 10%;
+  }
+  .avatarFive{
+      bottom: 30%;
+      left: 5%;
+  }
+}
+@media (min-width: 1440px) {
+  .avatarOne{
+      top: 30%;
+      left: 10%;
+  }
+  .avatarTwo{
+      right: 20%;
+  }
+  .avatarThree{
+      bottom: 20%;
+      left: 10%;
+  }
+  .avatarFour{
+      left: 20%;
+  }
+  .avatarFive{
+      bottom: 40%;
+      right: 15%;
+  }
+}
+@media (min-width: 2048px) {
+  .avatarOne{
+      top: 50%;
+      left: 30%;
+  }
+  .avatarTwo{
+      right: 30%;
+      top: 10%;
+  }
+  .avatarThree{
+      bottom: 40%;
+      left: 40%;
+  }
+  .avatarFour{
+      left: 30%;
+      top: 20%;
+  }
+  .avatarFive{
+      bottom: 30%;
+      right: 20%;
+  }
+}
+  .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
+      animation: fadeIn 1s ease-in-out;
+  }
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
    
 
  
